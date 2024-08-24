@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#Base" name="8"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="2048000.0"/>
+    <comp lib="0" loc="(100,120)" name="Clock"/>
+    <comp lib="0" loc="(120,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(120,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(120,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(120,340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(120,370)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(120,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(1320,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1320,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1320,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1320,370)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(230,80)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(260,460)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(260,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(260,520)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(260,550)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(340,600)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(540,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(970,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="10unsigned"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="1" loc="(290,620)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(310,40)" name="NOT Gate"/>
+    <comp lib="1" loc="(310,60)" name="NOT Gate"/>
+    <comp lib="1" loc="(310,80)" name="NOT Gate"/>
+    <comp lib="1" loc="(400,60)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(600,520)" name="NOT Gate"/>
+    <comp lib="1" loc="(670,600)" name="NOT Gate"/>
+    <comp lib="1" loc="(680,520)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(770,580)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(870,530)" name="OR Gate"/>
+    <comp lib="8" loc="(70,345)" name="Text">
+      <a name="text" val="f0"/>
+    </comp>
+    <comp lib="8" loc="(70,375)" name="Text">
+      <a name="text" val="f1"/>
+    </comp>
+    <comp lib="8" loc="(70,405)" name="Text">
+      <a name="text" val="f2"/>
+    </comp>
+    <comp loc="(1120,100)" name="RegistruPe8Biti">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1130,230)" name="Comparator">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1150,370)" name="Rest">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(1380,100)" name="MuxMic">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(370,340)" name="Codificator">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(400,130)" name="unitateControlCola">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(670,320)" name="MuxMare">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp loc="(820,100)" name="sumator8bits">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(100,120)" to="(140,120)"/>
+    <wire from="(1120,100)" to="(1160,100)"/>
+    <wire from="(1130,10)" to="(1130,230)"/>
+    <wire from="(1140,120)" to="(1140,190)"/>
+    <wire from="(1140,120)" to="(1160,120)"/>
+    <wire from="(1140,190)" to="(1390,190)"/>
+    <wire from="(1150,370)" to="(1320,370)"/>
+    <wire from="(1160,140)" to="(1160,210)"/>
+    <wire from="(1160,210)" to="(1230,210)"/>
+    <wire from="(120,150)" to="(180,150)"/>
+    <wire from="(120,180)" to="(130,180)"/>
+    <wire from="(120,210)" to="(150,210)"/>
+    <wire from="(120,340)" to="(130,340)"/>
+    <wire from="(120,370)" to="(140,370)"/>
+    <wire from="(120,400)" to="(150,400)"/>
+    <wire from="(1230,210)" to="(1230,620)"/>
+    <wire from="(1280,290)" to="(1280,330)"/>
+    <wire from="(1280,330)" to="(1320,330)"/>
+    <wire from="(1290,280)" to="(1290,300)"/>
+    <wire from="(1290,300)" to="(1320,300)"/>
+    <wire from="(130,170)" to="(130,180)"/>
+    <wire from="(130,170)" to="(180,170)"/>
+    <wire from="(130,340)" to="(130,600)"/>
+    <wire from="(130,340)" to="(150,340)"/>
+    <wire from="(130,600)" to="(240,600)"/>
+    <wire from="(1380,100)" to="(1390,100)"/>
+    <wire from="(1390,100)" to="(1390,190)"/>
+    <wire from="(1390,30)" to="(1390,100)"/>
+    <wire from="(140,120)" to="(180,120)"/>
+    <wire from="(140,20)" to="(140,120)"/>
+    <wire from="(140,20)" to="(900,20)"/>
+    <wire from="(140,370)" to="(140,560)"/>
+    <wire from="(140,370)" to="(150,370)"/>
+    <wire from="(140,560)" to="(150,560)"/>
+    <wire from="(150,190)" to="(150,210)"/>
+    <wire from="(150,190)" to="(180,190)"/>
+    <wire from="(150,360)" to="(150,370)"/>
+    <wire from="(150,380)" to="(150,400)"/>
+    <wire from="(150,400)" to="(150,550)"/>
+    <wire from="(150,550)" to="(190,550)"/>
+    <wire from="(150,560)" to="(150,620)"/>
+    <wire from="(150,620)" to="(240,620)"/>
+    <wire from="(170,210)" to="(170,250)"/>
+    <wire from="(170,210)" to="(180,210)"/>
+    <wire from="(180,120)" to="(180,130)"/>
+    <wire from="(180,230)" to="(180,280)"/>
+    <wire from="(190,550)" to="(190,640)"/>
+    <wire from="(190,640)" to="(240,640)"/>
+    <wire from="(230,100)" to="(460,100)"/>
+    <wire from="(230,80)" to="(230,100)"/>
+    <wire from="(250,50)" to="(260,50)"/>
+    <wire from="(250,60)" to="(280,60)"/>
+    <wire from="(250,70)" to="(250,80)"/>
+    <wire from="(250,80)" to="(280,80)"/>
+    <wire from="(260,40)" to="(260,50)"/>
+    <wire from="(260,40)" to="(280,40)"/>
+    <wire from="(260,460)" to="(380,460)"/>
+    <wire from="(260,490)" to="(400,490)"/>
+    <wire from="(260,520)" to="(420,520)"/>
+    <wire from="(260,550)" to="(450,550)"/>
+    <wire from="(290,620)" to="(330,620)"/>
+    <wire from="(310,40)" to="(350,40)"/>
+    <wire from="(310,570)" to="(310,600)"/>
+    <wire from="(310,60)" to="(350,60)"/>
+    <wire from="(310,600)" to="(340,600)"/>
+    <wire from="(310,80)" to="(350,80)"/>
+    <wire from="(330,620)" to="(1230,620)"/>
+    <wire from="(330,620)" to="(330,660)"/>
+    <wire from="(360,570)" to="(510,570)"/>
+    <wire from="(360,580)" to="(500,580)"/>
+    <wire from="(360,590)" to="(490,590)"/>
+    <wire from="(370,320)" to="(370,340)"/>
+    <wire from="(370,320)" to="(450,320)"/>
+    <wire from="(380,340)" to="(380,460)"/>
+    <wire from="(380,340)" to="(450,340)"/>
+    <wire from="(390,270)" to="(390,290)"/>
+    <wire from="(390,270)" to="(400,270)"/>
+    <wire from="(40,10)" to="(1130,10)"/>
+    <wire from="(40,10)" to="(40,250)"/>
+    <wire from="(40,250)" to="(170,250)"/>
+    <wire from="(40,280)" to="(180,280)"/>
+    <wire from="(40,280)" to="(40,610)"/>
+    <wire from="(40,610)" to="(80,610)"/>
+    <wire from="(400,130)" to="(440,130)"/>
+    <wire from="(400,150)" to="(430,150)"/>
+    <wire from="(400,170)" to="(410,170)"/>
+    <wire from="(400,190)" to="(460,190)"/>
+    <wire from="(400,250)" to="(400,270)"/>
+    <wire from="(400,250)" to="(480,250)"/>
+    <wire from="(400,360)" to="(400,490)"/>
+    <wire from="(400,360)" to="(450,360)"/>
+    <wire from="(400,60)" to="(500,60)"/>
+    <wire from="(410,170)" to="(410,290)"/>
+    <wire from="(410,290)" to="(1280,290)"/>
+    <wire from="(420,380)" to="(420,520)"/>
+    <wire from="(420,380)" to="(450,380)"/>
+    <wire from="(430,150)" to="(430,280)"/>
+    <wire from="(430,280)" to="(1290,280)"/>
+    <wire from="(440,130)" to="(440,270)"/>
+    <wire from="(440,270)" to="(1320,270)"/>
+    <wire from="(450,400)" to="(450,550)"/>
+    <wire from="(460,100)" to="(460,190)"/>
+    <wire from="(460,190)" to="(460,230)"/>
+    <wire from="(460,230)" to="(480,230)"/>
+    <wire from="(480,230)" to="(480,250)"/>
+    <wire from="(480,230)" to="(520,230)"/>
+    <wire from="(490,500)" to="(490,590)"/>
+    <wire from="(490,500)" to="(550,500)"/>
+    <wire from="(50,290)" to="(390,290)"/>
+    <wire from="(50,290)" to="(50,570)"/>
+    <wire from="(50,570)" to="(310,570)"/>
+    <wire from="(500,100)" to="(600,100)"/>
+    <wire from="(500,520)" to="(500,580)"/>
+    <wire from="(500,520)" to="(540,520)"/>
+    <wire from="(500,60)" to="(500,100)"/>
+    <wire from="(500,60)" to="(880,60)"/>
+    <wire from="(510,550)" to="(510,570)"/>
+    <wire from="(510,550)" to="(570,550)"/>
+    <wire from="(520,210)" to="(520,230)"/>
+    <wire from="(520,210)" to="(750,210)"/>
+    <wire from="(520,230)" to="(540,230)"/>
+    <wire from="(540,230)" to="(540,240)"/>
+    <wire from="(540,520)" to="(540,580)"/>
+    <wire from="(540,520)" to="(570,520)"/>
+    <wire from="(540,580)" to="(720,580)"/>
+    <wire from="(550,120)" to="(600,120)"/>
+    <wire from="(550,30)" to="(1390,30)"/>
+    <wire from="(550,30)" to="(550,120)"/>
+    <wire from="(550,500)" to="(550,560)"/>
+    <wire from="(550,500)" to="(630,500)"/>
+    <wire from="(550,560)" to="(720,560)"/>
+    <wire from="(570,550)" to="(570,600)"/>
+    <wire from="(570,550)" to="(600,550)"/>
+    <wire from="(570,600)" to="(640,600)"/>
+    <wire from="(580,140)" to="(580,190)"/>
+    <wire from="(580,140)" to="(600,140)"/>
+    <wire from="(580,190)" to="(670,190)"/>
+    <wire from="(600,520)" to="(630,520)"/>
+    <wire from="(600,540)" to="(600,550)"/>
+    <wire from="(600,540)" to="(630,540)"/>
+    <wire from="(670,190)" to="(670,320)"/>
+    <wire from="(670,600)" to="(720,600)"/>
+    <wire from="(680,520)" to="(800,520)"/>
+    <wire from="(750,210)" to="(750,410)"/>
+    <wire from="(750,410)" to="(930,410)"/>
+    <wire from="(770,580)" to="(800,580)"/>
+    <wire from="(80,610)" to="(80,660)"/>
+    <wire from="(80,660)" to="(330,660)"/>
+    <wire from="(800,510)" to="(800,520)"/>
+    <wire from="(800,510)" to="(820,510)"/>
+    <wire from="(800,550)" to="(800,580)"/>
+    <wire from="(800,550)" to="(820,550)"/>
+    <wire from="(820,100)" to="(830,100)"/>
+    <wire from="(830,100)" to="(830,490)"/>
+    <wire from="(830,100)" to="(870,100)"/>
+    <wire from="(830,490)" to="(970,490)"/>
+    <wire from="(870,100)" to="(870,140)"/>
+    <wire from="(870,140)" to="(870,230)"/>
+    <wire from="(870,140)" to="(900,140)"/>
+    <wire from="(870,230)" to="(890,230)"/>
+    <wire from="(870,530)" to="(910,530)"/>
+    <wire from="(880,120)" to="(900,120)"/>
+    <wire from="(880,60)" to="(880,120)"/>
+    <wire from="(890,230)" to="(890,370)"/>
+    <wire from="(890,230)" to="(910,230)"/>
+    <wire from="(890,370)" to="(930,370)"/>
+    <wire from="(890,390)" to="(890,500)"/>
+    <wire from="(890,390)" to="(930,390)"/>
+    <wire from="(890,500)" to="(910,500)"/>
+    <wire from="(900,20)" to="(900,100)"/>
+    <wire from="(910,500)" to="(910,530)"/>
+  </circuit>
+  <vhdl name="unitateControlCola">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY unitateControlCola IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    clk         	: IN  std_logic;                    -- input bit example
+    F3		  	: IN std_logic;
+    F4			: IN std_logic;
+    FS			: IN std_logic;
+    pesteLeu   	: in std_logic;
+    punemCoin 		: in std_logic;
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+    AM		  	: out std_logic;
+    AT			: out std_logic;
+    RM			: out std_logic;                  -- output bit example
+    stareCurenta	: OUT std_logic_vector(2 DOWNTO 0)  -- output vector example
+    );
+END unitateControlCola;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE unitateControlCola OF unitateControlCola IS
+
+signal stareActuala : std_logic_vector(2 downto 0) := "000";
+BEGIN
+
+	process(clk)
+		begin
+		if(rising_edge(clk)) then
+			if( stareActuala = "000") then
+				if(FS = '1') then 
+					stareActuala &lt;= "000";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				else
+					stareActuala &lt;= "001";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				end if;
+				
+			elsif( stareActuala = "001" ) then
+				if(punemCoin = '0') then
+					stareActuala &lt;= "010";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				else
+					AT &lt;= '0';
+					AM &lt;= '1';
+					RM &lt;= '0';
+					stareActuala &lt;="010";
+				end if;
+			elsif( stareActuala = "010") then
+				if( punemCoin = '0') then
+					stareActuala &lt;= "011";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				else
+					stareActuala &lt;= "010";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				end if;
+			elsif( stareActuala = "011") then
+				if(F4 = '1') then
+					stareActuala &lt;= "100";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				else
+					stareActuala &lt;= "001";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				end if;
+			elsif( stareActuala ="100") then
+				if(pesteLeu ='1') then
+					stareActuala &lt;= "101";
+					AT &lt;= '1';
+					AM &lt;= '0';
+					RM &lt;= '0';
+				else
+					stareActuala &lt;= "110";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '1';
+				end if;
+			elsif ( stareActuala = "101") then
+					stareActuala &lt;= "000";
+					AT &lt;= '1';
+					AM &lt;= '0';
+					RM &lt;= '0';	
+			end if;
+			elsif( stareActuala = "110") then
+					stareActuala &lt;= "000";
+					AT &lt;= '0';
+					AM &lt;= '0';
+					RM &lt;= '1';
+
+					
+		end if;			
+		stareCurenta &lt;= stareActuala;	
+
+	
+
+	end process;
+END unitateControlCola;</vhdl>
+  <vhdl name="MuxMic">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY MuxMic IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    w0     	 : IN  std_logic_vector (7 downto 0);          
+    w1        	 : IN  std_logic_vector (7 downto 0);   
+    sel         : IN  std_logic;
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+    iesire        : out  std_logic_vector (7 downto 0)  
+    
+    );
+END MuxMic;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE MuxMic OF MuxMic IS
+
+BEGIN
+
+	process(w0,w1,sel)
+	begin
+		if(sel ='0')then
+			iesire &lt;= w0;
+		elsif (sel ='1') then
+			iesire &lt;=w1;
+		else
+			iesire &lt;= x"00";
+		end if;
+	end process;
+
+END MuxMic;
+</vhdl>
+  <vhdl name="MuxMare">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY MuxMare IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+   	   sel    : in  STD_LOGIC_VECTOR(1 downto 0);
+        input0 : in  STD_LOGIC_VECTOR(7 downto 0);
+        input1 : in  STD_LOGIC_VECTOR(7 downto 0);
+        input2 : in  STD_LOGIC_VECTOR(7 downto 0);
+        input3 : in  STD_LOGIC_VECTOR(7 downto 0);
+        
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+  
+    output : out STD_LOGIC_VECTOR(7 downto 0)
+    );
+END MuxMare;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF MuxMare IS
+
+BEGIN
+
+ process(sel, input0, input1, input2, input3)
+    begin
+        case sel is
+            when "00" =&gt;
+                output &lt;= input0;
+            when "01" =&gt;
+                output &lt;= input1;
+            when "10" =&gt;
+                output &lt;= input2;
+            when others =&gt;
+                output &lt;= input3;
+        end case;
+    end process;
+
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="RegistruPe8Biti">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY RegistruPe8Biti IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    clk    : in  STD_LOGIC;
+        reset  : in  STD_LOGIC;
+        
+        data_in: in  STD_LOGIC_VECTOR(7 downto 0);
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+   data_out: out STD_LOGIC_VECTOR(7 downto 0)
+    );
+END RegistruPe8Biti;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF RegistruPe8Biti IS
+
+	 signal register_data : STD_LOGIC_VECTOR(7 downto 0) := (others =&gt; '0');
+BEGIN
+
+	process(clk, reset)
+    begin
+        if reset = '1' then
+            register_data &lt;= (others =&gt; '0');
+        elsif rising_edge(clk) then
+           
+                register_data &lt;= data_in;
+            
+        end if;
+    end process;
+
+    data_out &lt;= register_data;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="Codificator">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Codificator IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    f0,f1,f2              : IN  std_logic;                    -- input bit example
+
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+    outputPentruSelectie    : OUT std_logic_vector(1 DOWNTO 0)  -- output vector example
+    );
+END Codificator;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF Codificator IS
+
+BEGIN
+        process(f0,f1,f2)
+        variable inputBus : std_logic_vector(2 downto 0) := "000";
+            begin
+            inputBus := f0&amp;f1&amp;f2;
+                if(inputBus = "100") then
+                    outputPentruSelectie &lt;= "01";
+                elsif(inputBus = "010") then
+                    outputPentruSelectie &lt;= "10";
+                elsif(inputBus = "001") then
+                    outputPentruSelectie &lt;= "11";
+                else
+                    outputPentruSelectie &lt;= "00";
+                end if;
+
+        end process;
+
+END TypeArchitecture;</vhdl>
+  <vhdl name="Comparator">--------------------------------------------------------------------------------
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+ENTITY Comparator IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+  
+       Numar : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+  	verif : OUT STD_LOGIC
+    );
+END Comparator;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF Comparator IS
+
+BEGIN
+	process(Numar)
+		begin
+			IF("01100100"&gt;Numar)then
+				verif &lt;= '0';
+			else
+				verif &lt;= '1';
+			end if;
+	end process;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="sumator8bits">LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+ENTITY sumator8bits IS
+  PORT (
+          r : in STD_LOgic;
+         a, b: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+        sum: OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+    );
+END sumator8bits;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF sumator8bits IS
+
+BEGIN
+    process(r,a,b)
+    begin
+        if(r='1')then
+            sum &lt;= x"00";
+        else
+              sum &lt;= a + b;
+
+        end if;
+    end process;
+
+END TypeArchitecture;</vhdl>
+  <vhdl name="Rest">LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY Rest IS
+  PORT (
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    suma       : IN  std_logic_vector(7 downto 0); -- suma pe 8 bits
+    en         : IN  std_logic; -- input vector example
+    stare      : in std_logic_vector(2 downto 0);
+  ------------------------------------------------------------------------------
+
+    final  : OUT std_logic_vector(7 DOWNTO 0)  -- output vector example
+    );
+END Rest;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF Rest IS
+BEGIN
+
+    process(en, stare, suma)
+        begin 
+            if(en = '1') then
+                if(stare = "101")    then
+                    final &lt;= suma - "01100100";
+                elsif(stare = "110") then
+                    final &lt;= suma;
+                else
+                    final &lt;= x"00";
+                end if;
+            else
+                final &lt;= x"00";
+            end if;
+    end process;
+
+END TypeArchitecture;</vhdl>
+</project>
